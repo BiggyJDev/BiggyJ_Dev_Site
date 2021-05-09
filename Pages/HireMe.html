@@ -1,0 +1,123 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/index.css" />
+    <title>BiggyJ_Dev</title>
+  </head>
+  <body>
+    <nav>
+      <a href="./Index.html"
+        ><img
+          class="nav_logo"
+          src="../Images/BiggyJDevLogo.png"
+          alt="Main Logo"
+      /></a>
+      <div class="nav_links">
+        <a href="./Index.html">Home</a>
+        <a href="./AboutMe.html">About Me</a>
+        <a href="./Portfolio.html">Portfolio</a>
+        <a id="CTA_hire_me" href="./HireMe.html">Contact Me</a>
+      </div>
+
+      <div class="menu-btn">
+        <div class="menu-btn__burger"></div>
+      </div>
+    </nav>
+
+    <div class="hire_me_container">
+      <div class="contact_info_container">
+        <div class="contact_details">
+          <h2>Contact Details:</h2>
+          <p>
+            Phone Number: <br />
+            07730 778571 <br />
+            <br />
+            Email: <br />
+            BiggyJ_Dev@outlook.com
+          </p>
+          <p>
+            If you would prefer me to contact you just fill in the form and I
+            will contact you as soon as possible
+          </p>
+        </div>
+        <div class="social_media_container">
+          <h2>Check me out on Social Media!</h2>
+          <a href=""
+            ><img
+              src="../Images/Instagram_logo.png"
+              alt="Instagram"
+              class="social_media_icon"
+          /></a>
+          <a href=""
+            ><img
+              src="../Images/Facebook_logo.png"
+              alt="Facebook"
+              class="social_media_icon"
+          /></a>
+          <a href=""
+            ><img
+              src="../Images/github_logo_blue.png"
+              alt="Instagram"
+              class="social_media_icon"
+          /></a>
+        </div>
+      </div>
+
+      <div class="form_container">
+        <h2>Contact Form</h2>
+        <form
+          method="POST"
+          data-netlify="true"
+          name="BiggyJ_Contact_List"
+          data-netlify-recaptcha="true"
+        >
+          <input
+            type="text"
+            name="first_name"
+            id="first_name"
+            placeholder="First Name"
+            required
+          />
+          <input
+            type="text"
+            name="last_name"
+            id="last_name"
+            placeholder="Last Name"
+          />
+          <input
+            type="tel"
+            name="phone_number"
+            id="phone_number"
+            placeholder="Phone Number"
+          />
+          <input
+            type="email"
+            name="email_address"
+            id="email_address"
+            placeholder="Email Address"
+          />
+          <div data-netlify-recaptcha="true"></div>
+          <input type="submit" class="submit_button" placeholder="submit" />
+        </form>
+      </div>
+    </div>
+
+    <footer>
+      <img
+        class="react_logo"
+        src="../Images/ReactLogo.png"
+        alt="ReactLogo"
+        hidden
+      />
+    </footer>
+    <script src="../main.js"></script>
+  </body>
+</html>
