@@ -385,9 +385,7 @@ figcaption > h4 {
   color: #78e7ff;
 }
 
-/*Responsive*/
-
-/*Iphone*/
+/*Responsive Design Portfolio*/
 
 @media only screen and (max-width: 360px) {
   .project_snapshot {
@@ -522,7 +520,6 @@ input {
     flex-direction: column;
     overflow-y: scroll;
     align-content: center;
-    height: 80vh;
   }
 
   form {
@@ -538,5 +535,10 @@ input {
 @media only screen and (max-width: 400px) {
   input {
     width: 220px;
+  }
+
+  .social_media_icon {
+    height: 60px;
+    width: 60px;
   }
 }
